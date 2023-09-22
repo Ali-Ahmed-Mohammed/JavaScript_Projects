@@ -1,0 +1,57 @@
+/* ==== css reset ==== */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url(./bg.jpg) no-repeat center/ cover;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  padding: 30px;
+}
+.header{
+  font-size: 1.1rem;
+  border: 3px solid orange;
+  background-color: transparent;
+  padding: 5px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 8px;
+  color: #fff;
+}
+.main-content{
+  width: 100%;
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px 10px;
+  box-shadow: 0 0 10px;
+}
+.main-content .text-area{
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.main-content .person{
+  font-size: 1.4rem;
+  color: red;
+  margin-top: 20px;
+  font-style: italic;
+}
+.button-area button{
+  background-color: orangered;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-top: 20px;
+  border-radius:13px;
+  padding: 10px 15px;
+  outline: none;
+  border: 2px solid #fff;
+}

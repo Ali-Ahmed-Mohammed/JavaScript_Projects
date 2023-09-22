@@ -18,7 +18,7 @@ document.getElementById("btn").addEventListener("click", function () {
       result.innerHTML = Number(num1) * Number(num2)
       break;
     case "Divide":
-      result.innerHTML = Math.ceil(Number(num1) / Number(num2))
+      result.innerHTML = Math.round(Number(num1) / Number(num2))
       break;
   }
 })
