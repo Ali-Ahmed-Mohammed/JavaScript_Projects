@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h3{
+  font-size: 20px;
+  margin-bottom: 10rem;
+  color: #0000ff;
+}
+
+button{
+  background-color: transparent;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 5px;
+}
